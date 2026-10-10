@@ -1,5 +1,7 @@
 # Ticket Triage Lab
 
+[![Tests](https://github.com/yasaswireddy7032/ticket-triage-lab/actions/workflows/tests.yml/badge.svg)](https://github.com/yasaswireddy7032/ticket-triage-lab/actions)
+
 A TF-IDF support-ticket classifier with stratified evaluation, confidence-based abstention, and an out-of-vocabulary gate.
 
 **Status:** runnable portfolio reference implementation. Uses synthetic or hand-authored demonstration data. No employer code, customer data, or production performance claims.
@@ -22,7 +24,7 @@ Hand-authored labeled tickets → stratified split → train-only TF-IDF → log
 
 ## Validation
 
-Tests exercise failure cases and behavioral invariants, in addition to the executable demo. The included `github-actions-tests.yml` defines tests and the demo on pushes and pull requests. Install it as `.github/workflows/tests.yml` to activate CI. CI has not run on GitHub until this repository is published.
+Tests exercise failure cases and behavioral invariants, in addition to the executable demo. GitHub Actions runs the tests and demo on pushes and pull requests. See the Actions tab for current results.
 
 ## Limitations and next steps
 
