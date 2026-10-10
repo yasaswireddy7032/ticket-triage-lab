@@ -1,0 +1,38 @@
+{
+  "data": "36 hand-authored examples; illustrative only",
+  "train_n": 27,
+  "test_n": 9,
+  "macro_f1": 0.4444444444444444,
+  "labels": [
+    "access",
+    "billing",
+    "shipping"
+  ],
+  "confusion_matrix": [
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      2,
+      1
+    ]
+  ],
+  "example": {
+    "route": "human_review",
+    "confidence": 0.4604778047078201,
+    "reason": "below_threshold"
+  },
+  "unknown": {
+    "route": "human_review",
+    "confidence": 0.0,
+    "reason": "no_known_terms"
+  }
+}
